@@ -31,7 +31,7 @@ router.get("/signout", isAuthenticated, usersignout);
 router.post("/newpost", isAuthenticated, newpost);
 
 //get/student/signout
-router.post("/deletepost/:id", isAuthenticated, deletepost);
+router.post("/deletepost/:id",, deletepost);
 
 //get/student/signout
 router.post("/newcomment", isAuthenticated, newcomment);
