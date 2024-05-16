@@ -36,7 +36,4 @@ router.post("/deletepost/:id", isAuthenticated, deletepost);
 //get/student/signout
 router.post("/newcomment", isAuthenticated, newcomment);
 
-router.post
-
-
 module.exports = router;
