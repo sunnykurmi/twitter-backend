@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config({ path: "./.env" });
 
 //DB CONNECTION
+
 require("./models/database").connectdb();
 
 //logger
