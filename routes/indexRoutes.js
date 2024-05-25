@@ -33,6 +33,7 @@ router.post("/newpost", isAuthenticated, newpost);
 //get/student/signout
 router.post("/deletepost/:id", isAuthenticated, deletepost);
 
+
 //post/student/signout
 router.post("/newcomment", isAuthenticated, newcomment);
 
