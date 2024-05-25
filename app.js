@@ -12,6 +12,7 @@ const logger = require("morgan");
 const ErrorHandler = require("./utils/ErrorHandler");
 const { generatedErrors } = require("./middlewares/errors");
 app.use(logger("tiny"));
+
 app.use(
   cors({
     origin: "http://localhost:5173",
